@@ -1,0 +1,26 @@
+.master-wallet-entity {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 15px;
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.master-wallet-entity h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.master-wallet-entity h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

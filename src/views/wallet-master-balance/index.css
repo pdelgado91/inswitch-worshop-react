@@ -1,0 +1,29 @@
+.master-wallet-balance {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 15px;
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.master-wallet-balance__carrousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+
+  gap: 20px;
+}
+
+@media (min-width: 1000px) {
+  .master-wallet-balance__carrousel {
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,42 @@
+.card-balance {
+  min-width: 300px;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  background: #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+.card-balance__reference button {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.card-balance__reference {
+  margin-top: 40px;
+}
+
+.card-balance__amounts p {
+  display: flex;
+  gap: 10px;
+}
+
+.card-balance__alias-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-balance__alias-value {
+  font-size: 20px;
+}
+
+.card-balance__alias {
+  margin-bottom: 20px;
+}
